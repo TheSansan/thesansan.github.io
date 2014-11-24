@@ -253,4 +253,7 @@ h3 {
 .logoHeader h1 {
   color: #968F68; }
 
+#about-me h1 a:hover, #my-work h1 a:hover, #my-blog h1 a:hover, #for-fun h1 a:hover {
+  color: #968F68; }
+
 /*# sourceMappingURL=style.css.map */
