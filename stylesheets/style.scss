@@ -75,9 +75,6 @@ a{
     height:130px;
   }
 }
-
-
-
 hr{
 
   padding: 0;
@@ -318,4 +315,59 @@ h2{
     }
   }
  }
+.WebHeader{
+  h1{
+    font-size: 60px;
+    font-family: Andale Mono;
+    text-align: center;
+    color: #968F68;
+  }
+}
+.contentH{
+   width: 70%;
+  h1{
+    font: 35px Gothic bold;
 
+  }
+}
+.webC{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+  h2{
+    font-size: 20px;
+    font-family: Gothic;
+    text-align: left;
+    line-height: 1.5;
+
+
+  }
+}
+.Webimage {
+  margin-right: auto;
+  margin-left: auto;
+  width: 80%;
+  img{
+  width: 80%;
+  height: 70%;
+  filter: grayscale(0);
+  -webkit-filter: grayscale(0);
+  -moz-filter: grayscale(0);
+  -o-filter: grayscale(0);
+  -ms-filter: grayscale(0);;
+}
+}
+.Webimage{
+  img:hover{
+    
+
+  ilter: grayscale(1);
+  -webkit-filter: grayscale(1);
+  -moz-filter: grayscale(1);
+  -o-filter: grayscale(1);
+  -ms-filter: grayscale(1);
+
+  }
+}
