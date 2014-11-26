@@ -101,92 +101,89 @@ hr:after {
   text-align: center; }
 
 h1 {
-  padding: 20px;
-  font-size: 70px;
-  font-family: Century Gothic;
-  color: #D79B1B; }
+  font-size: 5px;
+  font-family: Century Gothic; }
 
 h2 {
   font-family: Century Gothic;
   color: #968F68;
-  font-size: 25px;
-  padding-bottom: 50px; }
+  font-size: 25px; }
 
 h1 a {
   font-family: Century Gothic;
   font-size: 50px;
   color: #D79B1B; }
 
+#title-row h1 {
+  color: #D79B1B;
+  font-size: 65px;
+  font-family: Century Gothic; }
+
 .textBox {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 800px;
-  padding: 20px; }
+  min-width: 360px;
+  margin-top: 20px; }
   .textBox p {
-    min-width: 360px;
     font-family: Century Gothic;
-    font-size: 25px;
+    font-size: 30px;
     color: #D79B1B;
     text-align: text-center;
     line-height: 1.5; }
 
-.metext, .blogtext {
+.metext {
   max-width: 800px;
   margin-left: auto;
   margin-right: auto; }
 
-h2 {
-  font-size: 35px; }
-
 .metext .col1 {
   display: inline-table;
-  text-align: left;
-  margin-bottom: 10px; }
+  text-align: left; }
 
 .metext .col1 p {
   font-family: Century Gothic;
-  font-size: 30px;
+  font-size: 35px;
   color: #968F68;
   line-height: 1.5;
-  text-align: left;
-  padding: 10px; }
+  text-align: left; }
 
 .sanP {
   margin-top: 40px;
   margin-bottom: 20px; }
 
 #my-work {
-  margin-left: auto;
-  margin-right: auto;
-  min-width: 360px;
-  padding: 20px; }
+  min-width: 360px; }
 
 .work-block {
   display: inline-block;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  min-width: 360px; }
+  max-width: 800px;
+  margin-left: 30px;
+  margin-right: 30px; }
   .work-block p {
     font-family: Century Gothic;
-    font-size: 30px;
-    color: #968F68; }
-
-.fun-block {
-  display: inline-block;
-  min-width: 360px;
-  max-width: 800px;
-  min-height: 360px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 50px;
-  margin-bottom: 50px; }
-  .fun-block p {
-    font-family: Century Gothic;
-    font-size: 30px;
+    font-size: 35px;
     color: #968F68;
     margin-top: 20px; }
-  .fun-block .image1 {
-    max-width: 300px; }
+
+.textBox {
+  display: inline-block;
+  text-align: center; }
+  .textBox p {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px; }
+  .textBox .fun-block {
+    display: inline-block;
+    max-width: 800px;
+    min-height: 360px;
+    margin-left: auto;
+    margin-right: auto; }
+    .textBox .fun-block p {
+      font-family: Century Gothic;
+      font-size: 30px;
+      color: #968F68;
+      margin-top: 20px; }
+    .textBox .fun-block .image1 {
+      max-width: 300px; }
 
 .footer .nav {
   list-style: none;
@@ -201,6 +198,26 @@ h2 {
   max-width: 800px; }
   #my-blog .textBox p {
     min-width: 360px; }
+
+.tumblr-post {
+  max-width: 800px;
+  min-width: 360px;
+  margin-left: auto;
+  margin-right: auto; }
+  .tumblr-post p {
+    font-family: Century Gothic;
+    font-size: 35px;
+    color: #968F68;
+    margin-top: 20px;
+    text-align: left;
+    line-height: 1.5; }
+  .tumblr-post .regular-title p {
+    font-family: Century Gothic;
+    font-size: 35px;
+    color: #968F68;
+    margin-top: 20px;
+    text-align: left;
+    line-height: 1.5; }
 
 .logoHeader, .tileHeader {
   width: 600px;
