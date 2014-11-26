@@ -49,9 +49,12 @@ body {
     font-family: 'Helvetica', 'Arial', sans-serif;
     background: url(../image/ricepaper_v3.png);
     background-repeat: repeat;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .container {
+    
     padding: 20px 20px;
     margin-right: auto;
     margin-left: auto;
@@ -59,6 +62,7 @@ body {
 }
 
 a {
+    
     text-decoration:none;
 }
 
@@ -121,7 +125,9 @@ hr:after {
 }
 
 .content {
-  
+
+    margin-left: auto;
+    margin-right: auto; 
     min-width: 360px;
     
     >.row{
@@ -135,6 +141,8 @@ hr:after {
 
 .text-center {
 
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
   }
 
@@ -153,16 +161,22 @@ hr:after {
             font-family: Century Gothic;
             color: #968F68;
             font-size: 35px;
-            padding-bottom: 50px;
+            text-align: left;
+
           }
 
- h1 a {
+h1 a {
      
      font-family: Century Gothic ;
      font-size: 50px;
      font-weight: bold;
      color: #D79B1B;
    }
+
+h1 a:hover {
+
+    color: #968F68; 
+}
 
 .textBox {
     margin-left: auto;
@@ -188,30 +202,50 @@ hr:after {
     h2 {
       font-size: 35px;
       font-weight: bold;
+      margin-top: 20px;
       
     }
   }
-    .metext .col1 {
 
-        display: inline-table;
-        text-align: left;
-        margin-bottom: 80px;
-      }
+.metext .col1 {
+
+    display: inline-table;
+    text-align: left;
+    margin-bottom: 10px;
+  }
     
-    .metext .col1 p {
+.metext .col1 p {
 
-        font-family: Century Gothic;
-        font-size: 25px;
-        color: #968F68;
-        line-height: 1.5;
-        text-align: left;  
-        padding: 10px;
-    }
+    font-family: Century Gothic;
+    font-size: 25px;
+    color: #968F68;
+    line-height: 1.5;
+    text-align: left;  
+    padding: 10px;
+  }
+ .metext .col2 {
 
-    .sanP {
-        margin-top: 40px;
-        margin-bottom: 20px;
-    }
+    margin-bottom: 60px;
+  } 
+
+.metext .col2 p {
+
+    font-family: Century Gothic;
+    font-size: 25px;
+    color: #968F68;
+    line-height: 1.5;
+    text-align: left;  
+    padding: 10px;
+    margin-top: 20px;
+    } 
+
+
+
+.sanP {
+    
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
 
 #my-work {
 
@@ -222,7 +256,9 @@ hr:after {
   }
        
 .work-block {
-
+    
+    margin-right: auto;
+    margin-left: auto;
     display: inline-block;
     margin-top: 50px;
     margin-bottom: 50px;
