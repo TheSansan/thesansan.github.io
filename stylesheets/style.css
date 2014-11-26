@@ -104,17 +104,19 @@ h1 {
   padding: 20px;
   font-size: 70px;
   font-family: Century Gothic;
-  color: #D79B1B; }
+  color: #D79B1B;
+  font-weight: bold; }
 
 h2 {
   font-family: Century Gothic;
   color: #968F68;
-  font-size: 25px;
+  font-size: 35px;
   padding-bottom: 50px; }
 
 h1 a {
   font-family: Century Gothic;
   font-size: 50px;
+  font-weight: bold;
   color: #D79B1B; }
 
 .textBox {
@@ -125,7 +127,7 @@ h1 a {
   .textBox p {
     min-width: 360px;
     font-family: Century Gothic;
-    font-size: 25px;
+    font-size: 30px;
     color: #D79B1B;
     text-align: text-center;
     line-height: 1.5; }
@@ -134,18 +136,18 @@ h1 a {
   max-width: 800px;
   margin-left: auto;
   margin-right: auto; }
-
-h2 {
-  font-size: 35px; }
+  .metext h2, .blogtext h2 {
+    font-size: 35px;
+    font-weight: bold; }
 
 .metext .col1 {
   display: inline-table;
   text-align: left;
-  margin-bottom: 10px; }
+  margin-bottom: 80px; }
 
 .metext .col1 p {
   font-family: Century Gothic;
-  font-size: 30px;
+  font-size: 25px;
   color: #968F68;
   line-height: 1.5;
   text-align: left;
@@ -168,8 +170,9 @@ h2 {
   min-width: 360px; }
   .work-block p {
     font-family: Century Gothic;
-    font-size: 30px;
-    color: #968F68; }
+    font-size: 25px;
+    color: #968F68;
+    font-weight: bold; }
 
 .fun-block {
   display: inline-block;
@@ -182,9 +185,10 @@ h2 {
   margin-bottom: 50px; }
   .fun-block p {
     font-family: Century Gothic;
-    font-size: 30px;
+    font-size: 25px;
     color: #968F68;
-    margin-top: 20px; }
+    margin-top: 20px;
+    font-weight: bold; }
   .fun-block .image1 {
     max-width: 300px; }
 
@@ -197,9 +201,9 @@ h2 {
   .footer .nav li {
     display: inline; }
 
-#my-blog .textBox {
+.row .metext {
   max-width: 800px; }
-  #my-blog .textBox p {
+  .row .metext p {
     min-width: 360px; }
 
 .logoHeader, .tileHeader {
