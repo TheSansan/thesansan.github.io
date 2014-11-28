@@ -99,7 +99,7 @@ hr:after {
     padding-bottom: 20px;
     padding-top: 20px;
     text-align: center;
-    margin-bottom: 5px; }
+    margin-bottom: 20px; }
 
 .text-center {
   margin-left: auto;
@@ -131,9 +131,10 @@ h1 a:hover {
 .textBox {
   margin-left: auto;
   margin-right: auto;
-  max-width: 800px;
-  padding: 20px; }
+  max-width: 800px; }
   .textBox p {
+    margin-left: auto;
+    margin-right: auto;
     min-width: 360px;
     font-family: Century Gothic;
     font-size: 30px;
@@ -153,15 +154,15 @@ h1 a:hover {
 .metext .col1 {
   display: inline-table;
   text-align: left;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  margin-top: 30px; }
 
 .metext .col1 p {
   font-family: Century Gothic;
   font-size: 25px;
   color: #968F68;
   line-height: 1.5;
-  text-align: left;
-  padding: 10px; }
+  text-align: left; }
 
 .metext .col2 {
   margin-bottom: 60px; }
@@ -172,31 +173,47 @@ h1 a:hover {
   color: #968F68;
   line-height: 1.5;
   text-align: left;
-  padding: 10px;
   margin-top: 20px; }
 
 .sanP {
-  margin-top: 40px;
-  margin-bottom: 20px; }
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30px;
+  margin-bottom: 30px; }
 
 #my-work {
   margin-left: auto;
   margin-right: auto;
-  min-width: 360px;
-  padding: 20px; }
+  min-width: 360px; }
 
 .work-block {
   margin-right: auto;
   margin-left: auto;
   display: inline-block;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   min-width: 360px; }
   .work-block p {
     font-family: Century Gothic;
     font-size: 25px;
     color: #968F68;
     font-weight: bold; }
+
+.work-block img {
+  width: 90%;
+  height: 80%;
+  filter: grayscale(0);
+  -webkit-filter: grayscale(0);
+  -moz-filter: grayscale(0);
+  -o-filter: grayscale(0);
+  -ms-filter: grayscale(0); }
+
+.work-block img:hover {
+  ilter: grayscale(1);
+  -webkit-filter: grayscale(1);
+  -moz-filter: grayscale(1);
+  -o-filter: grayscale(1);
+  -ms-filter: grayscale(1); }
 
 .fun-block {
   display: inline-block;
@@ -205,16 +222,17 @@ h1 a:hover {
   min-height: 360px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 50px;
-  margin-bottom: 50px; }
+  margin-top: 30px;
+  margin-bottom: 30px; }
   .fun-block p {
     font-family: Century Gothic;
     font-size: 25px;
     color: #968F68;
     margin-top: 20px;
     font-weight: bold; }
-  .fun-block .image1 {
-    max-width: 300px; }
+  .fun-block img {
+    width: 90%;
+    height: 80%; }
 
 .footer .nav {
   list-style: none;
@@ -230,82 +248,56 @@ h1 a:hover {
   .row .metext p {
     min-width: 360px; }
 
-.logoHeader, .tileHeader {
-  width: 600px;
+.logoHeader, .tileHeader, .WebHeader {
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
-  margin-top: 30px;
-  padding: 10px; }
-  .logoHeader h1, .tileHeader h1 {
-    font-size: 60px; }
+  min-width: 360px; }
+  .logoHeader h1, .tileHeader h1, .WebHeader h1 {
+    padding: 20px;
+    font-family: Century Gothic;
+    color: #D79B1B;
+    font-weight: bold;
+    text-align: center; }
+  .logoHeader a, .tileHeader a, .WebHeader a {
+    font-size: 70px; }
 
 .FPlogo, .contentH {
-  width: 600px;
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
+  max-width: 800px;
+  padding: 20px;
   margin-top: 50px;
-  padding: 10px; }
-  .FPlogo h1, .contentH h1 {
-    color: #968F68; }
-  .FPlogo p, .contentH p {
-    font-family: Gothic;
+  margin-bottom: 50px; }
+  .FPlogo h2, .contentH h2 {
+    font-family: Century Gothic;
     font-size: 35px;
-    color: #968F68; }
-  .FPlogo img, .contentH img {
-    margin-top: 50px;
-    margin-bottom: 50px; }
-
-.contentH {
-  width: 800px; }
-  .contentH h1 {
-    font-size: 35px;
-    color: #968F68; }
-  .contentH h2 {
-    font-size: 20px;
     color: #D79B1B;
-    margin-top: 100px; }
+    text-align: center; }
+  .FPlogo h3, .contentH h3 {
+    font-family: Century Gothic;
+    font-size: 25px;
+    color: #968F68;
+    text-align: left;
+    line-height: 1.5; }
 
-.tileHeader h1 {
-  color: #968F68; }
-
-.logoHeader h1 {
-  color: #968F68; }
+.webC, .version {
+  margin-top: 50px; }
 
 #about-me h1, #my-work h1, #my-blog h1, #for-fun h1 {
   a: hover;
     a-color: #968F68; }
 
-.WebHeader h1 {
-  font-size: 60px;
-  font-family: Andale Mono;
-  text-align: center;
-  color: #968F68; }
-
-.contentH {
-  width: 70%; }
-  .contentH h1 {
-    font: 35px Gothic bold; }
-
-.webC {
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center; }
-  .webC h2 {
-    font-size: 20px;
-    font-family: Gothic;
-    text-align: left;
-    line-height: 1.5; }
-
 .Webimage {
   margin-right: auto;
   margin-left: auto;
-  width: 80%; }
+  min-width: 360px;
+  max-width: 800px;
+  min-height: 360px;
+  margin-top: 50px;
+  margin-bottom: 30px; }
   .Webimage img {
-    width: 80%;
-    height: 70%;
+    width: 90%;
+    height: 80%;
     filter: grayscale(0);
     -webkit-filter: grayscale(0);
     -moz-filter: grayscale(0);
@@ -318,6 +310,24 @@ h1 a:hover {
   -moz-filter: grayscale(1);
   -o-filter: grayscale(1);
   -ms-filter: grayscale(1); }
+
+.FPlogo img {
+  margin-right: auto;
+  margin-left: auto;
+  width: 90%;
+  height: 80%;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  position: relative;
+  left: 30px; }
+
+.version img {
+  margin-right: auto;
+  margin-left: auto;
+  width: 90%;
+  height: 80%;
+  margin-top: 50px;
+  margin-bottom: 30px; }
 
 #for-fun .textBox p {
   max-width: 800px;
