@@ -200,8 +200,7 @@ h1 a:hover {
     font-weight: bold; }
 
 .work-block img {
-  width: 90%;
-  height: 80%;
+  width: 300px;
   filter: grayscale(0);
   -webkit-filter: grayscale(0);
   -moz-filter: grayscale(0);
@@ -231,8 +230,7 @@ h1 a:hover {
     margin-top: 20px;
     font-weight: bold; }
   .fun-block img {
-    width: 90%;
-    height: 80%; }
+    width: 300px; }
 
 .footer .nav {
   list-style: none;
@@ -270,7 +268,7 @@ h1 a:hover {
   margin-bottom: 50px; }
   .FPlogo h2, .contentH h2 {
     font-family: Century Gothic;
-    font-size: 35px;
+    font-size: 50px;
     color: #D79B1B;
     text-align: center; }
   .FPlogo h3, .contentH h3 {
