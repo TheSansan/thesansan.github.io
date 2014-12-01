@@ -179,7 +179,12 @@ h1 a:hover {
   margin-right: auto;
   margin-left: auto;
   margin-top: 30px;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  max-width: 1000px;
+  min-width: 360px; }
+  .sanP img {
+    width: 100%;
+    height: auto; }
 
 #my-work {
   margin-left: auto;
